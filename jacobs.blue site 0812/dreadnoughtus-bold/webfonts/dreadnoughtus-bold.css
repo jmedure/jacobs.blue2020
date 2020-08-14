@@ -1,0 +1,27 @@
+/*
+Font: 		Dreadnoughtus Bold
+Style: 		Regular
+URL: 		https://www.youworkforthem.com/font/T11419/dreadnoughtus-extended
+Foundry: 	Akbar Rohmanto
+Foundry: 	https://www.youworkforthem.com/designer/1256/akbar-rohmanto
+Copyright:	Copyright © 2019 by Harmnessless. All rights reserved.
+Version: 	17
+Created:	October 15, 2019
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'DreadnoughtusBold';
+	src: url('dreadnoughtus-bold.eot');
+	src: url('dreadnoughtus-bold.eot?#iefix') format('embedded-opentype'),
+             url('dreadnoughtus-bold.woff2') format('woff2'),
+	     url('dreadnoughtus-bold.woff') format('woff'),
+	     url('dreadnoughtus-bold.ttf') format('truetype'),
+	     url('dreadnoughtus-bold.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

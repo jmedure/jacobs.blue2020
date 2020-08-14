@@ -1,0 +1,163 @@
+* {
+margin: 0;
+padding: 0;
+font-family: dreadnoughtus, helvetica, arial, sans-serif;
+}
+
+@font-face {
+  font-family: dreadnoughtus;
+  src: url(webfonts/dreadnoughtus-black.css);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: dreadnoughtus;
+  src: url(webfonts/dreadnoughtus-bold.css);
+}
+
+body{
+  background-color: #121212;
+  color: white;
+  z-index: 1;
+}
+
+header{
+  background: #121212;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  top:0;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  /*margin-bottom: 4em;*/
+}
+
+nav {
+  font-size: 1em;
+  width: 60%;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #12121200;
+  -webkit-text-stroke-width: .75px;
+  -webkit-text-stroke-color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  transition: .3s;
+  -webkit-text-stroke-width: .75px;
+  -webkit-text-stroke-color: white;
+}
+
+/* special link styling*/
+#JB{
+  color: #ffffff;
+  text-decoration: none;
+  color: white;
+  transition: .3s;
+}
+
+.main{
+  display: flex;
+  height: auto;
+  max-width: 100%;
+  width: 68%;
+  margin: 10% 16%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: static;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 29.12px;
+  font-weight: bold;
+  text-align: justify;
+  text-justify: inter-character;
+  line-height: ;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+  justify-content: justify;
+}
+
+h2 {
+  font-size: 81px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+
+.skull {
+  height: 402px;
+  width: auto;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.background {
+  z-index: -1;
+  display: block;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#left{
+  left: -5%;
+  position: fixed;
+  width: 500px;
+  top: 17%;
+  z-index: 1;
+  transform: rotate(-10deg);
+}
+
+#top-right{
+  left: 75%;
+  position: fixed;
+  width: 570px;
+  top: -4%;
+  z-index: 1;
+  transform: rotate(3deg);
+}
+
+#bottom{
+  left: 55%;
+  position: fixed;
+  width:400px;
+  top: 80%;
+  z-index: 1;
+  transform: rotate(20deg);
+}
+
+
+
+footer {
+  margin-top:10%;
+  text-align: center;
+  line-height: 2em;
+  font-size: .7rem;
+}
