@@ -83,18 +83,18 @@ JB:hover{
 .main{
   display: flex;
   height: auto;
-  max-width: 100%;
+  max-width: 1024px;
   width: 68%;
-  margin: 10% 16%;
+  margin: calc(100px + 2vw) auto;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-flow: column nowrap;
   position: static;
   z-index: 1;
 }
 
 #shop-wrap {
-  margin: auto;
+  margin: calc(100px + 2vw) auto;
   justify-content: center;
   align-items: center;
   margin-bottom: 6%;
