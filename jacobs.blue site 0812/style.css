@@ -35,8 +35,12 @@ header{
   /*margin-bottom: 4em;*/
 }
 
+.header-link {
+  font-size: min(1.6vw, 1em);
+}
+
 nav {
-  font-size: 1em;
+  font-size: 1em  ;
   width: 60%;
   font-weight: bold;
   display: flex;
@@ -97,6 +101,7 @@ JB:hover{
   margin: calc(100px + 2vw) auto;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
   margin-bottom: 6%;
   z-index: 1;
 }
@@ -126,9 +131,7 @@ h2 {
 
 /* Rectangle 2 */
 .shop{
-  flex-wrap: wrap;
-  margin:24px;
-  flex-direction: row;
+  margin: 24px;
   background: #C4C4C4;
 }
 
