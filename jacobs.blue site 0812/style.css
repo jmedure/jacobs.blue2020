@@ -6,13 +6,13 @@ font-family: dreadnoughtus, helvetica, arial, sans-serif;
 
 @font-face {
   font-family: dreadnoughtus;
-  src: url(webfonts/dreadnoughtus-black.css);
+  src: url(fonts/webfonts/dreadnoughtus-black.css);
   font-weight: bold;
 }
 
 @font-face {
   font-family: dreadnoughtus;
-  src: url(webfonts/dreadnoughtus-bold.css);
+  src: url(fonts/webfonts/dreadnoughtus-bold.css);
 }
 
 body{
@@ -112,6 +112,13 @@ h2 {
   -webkit-text-stroke-color: white;
 }
 
+/* Rectangle 2 */
+.shop{
+  flex-wrap: wrap;
+  margin:24px;
+  flex-direction: row;
+  background: #C4C4C4;
+}
 
 .skull {
   height: 402px;
@@ -160,11 +167,24 @@ h2 {
   transform: rotate(20deg);
 }
 
-
-
 footer {
   margin-top:10%;
   text-align: center;
   line-height: 2em;
   font-size: .7rem;
 }
+
+/* Media Queries*/
+/*
+@media (max-width: 320px) {
+  .main{
+    width:95%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main{
+    width:1024px;
+  }
+}
+*/
