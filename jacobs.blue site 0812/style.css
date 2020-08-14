@@ -68,21 +68,18 @@ a:hover {
 
 /* special link styling*/
 a.JB{
-  background: white;
+  color: white;
   text-decoration: none;
   transition: .3s;
   -webkit-text-stroke-width: .75px;
-  -webkit-text-stroke-color: #000;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
+  -webkit-text-stroke-color: white;
 }
 
 a.JB:hover{
-  background: linear-gradient(to left #4795ff, #006eb3);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #4795ff;
   transition: .3s;
+  -webkit-text-stroke-width: .75px;
+  -webkit-text-stroke-color: #4795ff;
 }
 
 .title{
