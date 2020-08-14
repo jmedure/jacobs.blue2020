@@ -68,16 +68,21 @@ a:hover {
 
 /* special link styling*/
 a.JB{
-  color: #12121200;
+  background: white;
   text-decoration: none;
-  color: white;
   transition: .3s;
   -webkit-text-stroke-width: .75px;
-  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-color: #000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 
-JB:hover{
-  color: linear-gradient(to left, red, blue);
+a.JB:hover{
+  background: linear-gradient(to left #4795ff, #006eb3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: .3s;
 }
 
 .title{
@@ -90,6 +95,7 @@ JB:hover{
   max-width: 1024px;
   width: 68%;
   margin: calc(100px + 2vw) auto;
+  margin-bottom: 100px;
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
@@ -99,10 +105,10 @@ JB:hover{
 
 #shop-wrap {
   margin:auto;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin-bottom: 6%;
   z-index: 1;
 }
 
@@ -182,8 +188,9 @@ h2 {
   transform: rotate(20deg);
 }
 
-footer {
-  margin-top:10%;
+footer{
+  margin-top: 5px;
+  margin-bottom: 50px;
   text-align: center;
   line-height: 2em;
   font-size: .7rem;
