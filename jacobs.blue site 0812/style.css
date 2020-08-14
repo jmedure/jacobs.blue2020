@@ -28,11 +28,11 @@ header{
   display: flex;
   top:0;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   z-index: 2;
-  /*margin-bottom: 4em;*/
+  border: solid 2px red;
 }
 
 .header-link {
@@ -40,14 +40,21 @@ header{
 }
 
 nav {
-  font-size: 1em  ;
-  width: 60%;
+  font-size: 1em;
+  width: 20%;
   font-weight: bold;
   display: flex;
   flex-direction: row;
   text-align: center;
-  justify-content: space-around;
   align-items: center;
+  justify-content: center;
+  border: solid 2px red;
+}
+
+.social {
+  font-size: min(1.6vw, 1.5em);
+  margin-right: 2%;
+  border: solid 2px red;
 }
 
 a {
@@ -55,10 +62,18 @@ a {
   color: #12121200;
   -webkit-text-stroke-width: .75px;
   -webkit-text-stroke-color: white;
-  padding: 20px 10px;
+  padding: 20px 20px;
 }
 
-a:hover {
+a:hover{
+  text-decoration: none;
+  color: white;
+  transition: .3s;
+  -webkit-text-stroke-width: .75px;
+  -webkit-text-stroke-color: white;
+}
+
+a:active{
   text-decoration: none;
   color: white;
   transition: .3s;
@@ -67,12 +82,17 @@ a:hover {
 }
 
 /* special link styling*/
+.JB{
+  margin-left: 2%;
+}
+
 a.JB{
   color: white;
   text-decoration: none;
-  transition: .3s;
+  transition: .3s
   -webkit-text-stroke-width: .75px;
   -webkit-text-stroke-color: white;
+  border: solid 2px red;
 }
 
 a.JB:hover{
@@ -83,7 +103,8 @@ a.JB:hover{
 }
 
 .title{
-  margin-top: 6%;
+  margin-top: 6% auto;
+  border: solid 2px red;
 }
 
 .main{
@@ -98,10 +119,20 @@ a.JB:hover{
   flex-flow: column nowrap;
   position: static;
   z-index: 1;
+  border: solid 2px red;
 }
 
 #shop-wrap {
   margin:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  z-index: 1;
+}
+
+#video-wrap {
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,6 +166,11 @@ h2 {
 /* Rectangle 2 */
 .shop{
   margin: 24px;
+  background: #C4C4C4;
+}
+
+.vid{
+  margin-bottom: 24px;
   background: #C4C4C4;
 }
 
