@@ -98,7 +98,7 @@ JB:hover{
 }
 
 #shop-wrap {
-  margin: calc(100px + 2vw) auto;
+  margin:auto;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
