@@ -6,13 +6,13 @@ font-family: dreadnoughtus, helvetica, arial, sans-serif;
 
 @font-face {
   font-family: dreadnoughtus;
-  src: url(fonts/webfonts/dreadnoughtus-black.css);
+  src: url(fonts/dreadnoughtus-black/webfonts/dreadnoughtus-black.css);
   font-weight: bold;
 }
 
 @font-face {
   font-family: dreadnoughtus;
-  src: url(fonts/webfonts/dreadnoughtus-bold.css);
+  src: url(fonts/dreadnoughtus-bold/webfonts/dreadnoughtus-bold.css);
 }
 
 body{
