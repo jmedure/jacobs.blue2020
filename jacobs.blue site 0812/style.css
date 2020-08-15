@@ -149,6 +149,15 @@ a.LIEN{
   z-index: 1;
 }
 
+#listen-wrap {
+  margin: auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-flow: row wrap;
+  z-index: 1;
+}
+
 h1 {
   font-size: 29.12px;
   font-weight: bold;
@@ -175,6 +184,14 @@ h2 {
 /* Rectangle 2 */
 .shop{
   margin: 24px;
+  background: #C4C4C4;
+}
+
+.listen{
+  margin:20px;
+  flex: row wrap;
+  height: 466px;
+  width:auto;
   background: #C4C4C4;
 }
 
