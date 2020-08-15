@@ -25,14 +25,16 @@ header{
   background: #121212;
   height: 80px;
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 20% 40% 20%;
+  grid-template-rows:100%;
   top:0;
   text-align: center;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   z-index: 2;
-  border: solid 2px red;
+  /* border: solid 2px red; */
 }
 
 .header-link {
@@ -41,20 +43,22 @@ header{
 
 nav {
   font-size: 1em;
-  width: 20%;
+  width: auto;
   font-weight: bold;
-  display: flex;
+  /* display: flex;
+  float: inherit;
   flex-direction: row;
   text-align: center;
   align-items: center;
-  justify-content: center;
-  border: solid 2px red;
+  justify-content: center;  */
+  /* border: solid 2px red; */
 }
 
 .social {
   font-size: min(1.6vw, 1.5em);
-  margin-right: 2%;
-  border: solid 2px red;
+  /* margin: auto; */
+  height:auto;
+  /* border: solid 2px red; */
 }
 
 a {
@@ -83,7 +87,7 @@ a:active{
 
 /* special link styling*/
 .JB{
-  margin-left: 2%;
+  /* margin-left: auto; */
 }
 
 a.JB{
@@ -92,7 +96,7 @@ a.JB{
   transition: .3s
   -webkit-text-stroke-width: .75px;
   -webkit-text-stroke-color: white;
-  border: solid 2px red;
+  /* border: solid 2px red; */
 }
 
 a.JB:hover{
@@ -102,9 +106,14 @@ a.JB:hover{
   -webkit-text-stroke-color: #4795ff;
 }
 
+a.LIEN{
+  padding:0;
+  margin:0;
+}
+
 .title{
   margin-top: 6% auto;
-  border: solid 2px red;
+  /* border: solid 2px red; */
 }
 
 .main{
@@ -119,7 +128,7 @@ a.JB:hover{
   flex-flow: column nowrap;
   position: static;
   z-index: 1;
-  border: solid 2px red;
+  /* border: solid 2px red; */
 }
 
 #shop-wrap {
