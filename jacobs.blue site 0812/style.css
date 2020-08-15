@@ -26,7 +26,7 @@ header{
   height: 80px;
   width: 100%;
   display: grid;
-  grid-template-columns: 20% 40% 20%;
+  grid-template-columns: 15% 60% 15% ;
   grid-template-rows:100%;
   top:0;
   text-align: center;
@@ -55,6 +55,9 @@ nav {
 }
 
 .social {
+  display: flex;
+  padding-right: 20px;
+  justify-content: space-between;
   font-size: min(1.6vw, 1.5em);
   /* margin: auto; */
   height:auto;
@@ -92,8 +95,10 @@ a:active{
 
 a.JB{
   color: white;
+  padding-left: 40px;
   text-decoration: none;
-  transition: .3s
+  transition: .3s;
+  text-align: left;
   -webkit-text-stroke-width: .75px;
   -webkit-text-stroke-color: white;
   /* border: solid 2px red; */
@@ -147,6 +152,8 @@ a.LIEN{
   align-items: center;
   flex-flow: row wrap;
   z-index: 1;
+  position: relative;
+  padding-bottom: 56.25%;
 }
 
 #listen-wrap {
@@ -156,6 +163,14 @@ a.LIEN{
   align-items: center;
   flex-flow: row wrap;
   z-index: 1;
+}
+
+iframe{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 }
 
 h1 {
@@ -195,10 +210,10 @@ h2 {
   background: #C4C4C4;
 }
 
-.vid{
+/* .vid{
   margin-bottom: 24px;
   background: #C4C4C4;
-}
+} */
 
 .skull {
   height: 402px;
