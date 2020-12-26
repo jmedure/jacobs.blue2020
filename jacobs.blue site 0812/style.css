@@ -75,14 +75,12 @@ nav {
 }
 
 .social {
-  /* padding-right: 24px; */
   margin-right: 48px;
   font-size:  1.6em;
   height: auto;
   float: right;
   text-align: center;
   align-content: center;
-  /* border: solid 2px red; */
 }
 
 a {
@@ -91,7 +89,6 @@ a {
   -webkit-text-stroke-width: .75px;
   -webkit-text-stroke-color: white;
   padding-right: 24px;
-  /* border: 2px solid red; */
 }
 
 a:hover{
@@ -120,7 +117,6 @@ a:active{
 a.JB{
   transition: .3s ease;
   text-align: left;
-  /* border: solid 2px red; */
 }
 
 a.JB:hover{
@@ -135,7 +131,6 @@ a.LIEN{
 
 .title{
   margin-top: 6% auto;
-  /* border: solid 2px red; */
 }
 
 .hero-image{
@@ -199,12 +194,10 @@ a.LIEN{
 }
 
 .script{
-  /* background: #efefef; */
   width: 100%;
   margin: auto;
   margin-top: 16px;
   margin-bottom: 48px;
-  /* border: solid 2px red; */
   /* position: absolute; */
 }
 
@@ -518,7 +511,6 @@ height: 100%;
 
 
 footer{
-  /* width: 100%; */
   margin: auto;
   margin-top: 5px;
   margin-bottom: 96px;
@@ -598,7 +590,6 @@ footer a{
   display: inline;
   word-wrap: normal;
   width: 100%;
-  /* width: 100px; */
 }
 
 .readThis{
