@@ -5,6 +5,11 @@ padding: 0;
 
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 @font-face {
 font-family: 'VCR OSD Mono';
 font-style: normal;
@@ -461,6 +466,17 @@ iframe {
   max-width: 100%;
   display: block;
 }
+
+.desktop-only {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .desktop-only {
+    display: block;
+  }
+}
+
 
 /* #shop-wrap {
   margin:auto;
