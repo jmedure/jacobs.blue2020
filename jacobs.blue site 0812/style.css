@@ -203,9 +203,9 @@ a.LIEN{
 }
 
 .static{
-  position: inherit;
+  position: absolute;
   background: #191919;
-  transition: .2s ease;
+  /* transition: .2s ease; */
 }
 
 .static:hover {
@@ -593,6 +593,10 @@ footer a{
   width: 100%;
 }
 
+.script-btn-container {
+  position: relative;
+}
+
 .readThis{
   height: auto;
   width: 300px;
@@ -602,8 +606,12 @@ footer a{
 }
 
 #readThis{
-  width: 100%;
   height: auto;
+  position: absolute;
+  width: 300px;
+  top: -215px;
+  left: 680px;
+
   /* display: inline;
   word-wrap: normal;
   width: 100%; */
