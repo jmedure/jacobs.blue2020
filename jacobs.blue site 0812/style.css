@@ -491,6 +491,31 @@ button:hover{
   }
 }
 
+.mobile-only {
+  display: block;
+  padding-top: 200px;
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+@media (min-width: 1200px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
+.mobile-only p {
+  margin-bottom: 15px;
+  font-family: 'VCR OSD Mono', monospace;
+}
+
+#download-pdf {
+  margin: auto;
+  display: block;
+}
+
 
 /* #shop-wrap {
   margin:auto;
