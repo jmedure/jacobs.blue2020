@@ -13,7 +13,7 @@ html, body {
   font-family: 'VCR OSD Mono';
   font-style: normal;
   font-weight: normal;
-  src: local('VCR OSD Mono'), url("fonts/vcr-osd-mono-cufontfonts-webfont/VCR_OSD_MONO_1.001[1].woff") format('woff');
+  src: local('VCR OSD Mono'), url("fonts/vcr-osd-mono-cufonfonts-webfont/VCR_OSD_MONO_1.001[1].woff") format('woff');
 }
 
 body{
