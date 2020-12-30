@@ -22,7 +22,6 @@ body{
   z-index: 1;
 }
 
-
 h1, h2{
   font-family: youngblood, serif;
   font-weight: 400;
@@ -73,7 +72,6 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  /* height: 60px; */
   height: 80px;
   line-height: 80px;
   margin: 0 16px;
@@ -116,13 +114,10 @@ a:active{
   font-size: 40px;
   padding: 0;
   color: white;
-  /* padding-left: 32px; */
   letter-spacing: -2%;
   font-family: youngblood;
-  /* margin: 10px 48px 0 48px; */
   margin: 0 48px;
   flex-grow: 1;
-  /* text-align: center; */
   text-align: left;
 }
 
@@ -145,13 +140,9 @@ a.LIEN{
 }
 
 .hero-image{
-  /* background: red; */
   display: block;
   padding-top: 80px;
   overflow: hidden;
-  /* background-position: center;
-  background-repeat: repeat;
-  background-size: cover; */
   position: relative;
 }
 
@@ -173,21 +164,10 @@ a.LIEN{
   margin-top: 8px;
 }
 
-/* .down-arrow{
-  width: 7%;
-  margin: auto;
-  margin-top: 24px;
-  }
-
-  .down-arrow svg{
-    width: 100%;
-    } */
-
 .main{
   display: flex;
   height: auto;
   max-width: 680px;
-  /* width: 68%; */
   margin: calc(100px + 2vw) auto;
   margin-bottom: 112px;
   margin-top: 84px;
@@ -196,7 +176,6 @@ a.LIEN{
   flex-flow: column nowrap;
   position: static;
   z-index: 1;
-  /* border: solid 2px red; */
 }
 
 .explore{
@@ -210,13 +189,11 @@ a.LIEN{
   margin: auto;
   margin-top: 16px;
   margin-bottom: 48px;
-  /* position: absolute; */
 }
 
 .static{
   position: absolute;
   background: #191919;
-  /* transition: .2s ease; */
 }
 
 .static:hover {
@@ -356,7 +333,6 @@ button{
     color: white;
     width: auto;
     height: 60px;
-    /* margin-top: 24px; */
     font-size: 18px;
     cursor: pointer;
     font-family: 'VCR OSD Mono', monospace;
@@ -415,7 +391,6 @@ button:hover{
     background: #252525;
 }
 
-
 .wrapper{
   display: flex;
   height: auto;
@@ -440,12 +415,6 @@ button:hover{
   color: #00000000;
   border: none;
 }
-
-/* #spotifyEmbed{
-  display: block;
-  width: 25%;
-  border: red 2px solid;
-} */
 
 .sticky-footer{
   display: inherit;
@@ -479,6 +448,7 @@ button:hover{
   left: 0;
 }
 
+/* Save for Video Embed */
 /* iframe {
   max-width: 100%;
   display: block;
@@ -497,12 +467,10 @@ button:hover{
   position: static;
   z-index: 1;
   line-height: 1.3;
-  /* display: none; */
   width: 95%
 }
 
 .desktop-only img {
-  /* display: none; */
   width: 100%;
   padding-top: 8px;
   margin: auto;
@@ -569,7 +537,7 @@ button:hover{
   display: block;
 }
 
-
+/* Original Site Styles -- Save for adding shop and watch back in*/
 /* #shop-wrap {
   margin:auto;
   display: flex;
@@ -604,7 +572,6 @@ width: 100%;
 height: 100%;
 } */
 
-/* Rectangle 2 */
 .shop{
   margin: 24px;
   background: #C4C4C4;
@@ -617,7 +584,6 @@ height: 100%;
   width:auto;
   background: #C4C4C4;
 }
-
 
 footer{
   margin: auto;
@@ -781,28 +747,6 @@ footer a{
     align-content: center;
   }
 
-  /* header{
-    height: 140px;
-    width: 100%;
-    display: inline-block;
-    top:0;
-    text-align: center;
-    align-content: center;
-    z-index: 2;
-    position: fixed;
-    justify-content: center;
-  } */
-
-  /* header a{
-    margin: auto;
-    height: 40px;
-  } */
-
-  /* .header-link {
-    display: inline-block;
-    vertical-align: center;
-  } */
-
   .hero-image{
     background-image: url('assets/BITSCover1BannerSITEHeader.jpg');
     background-size: cover;
@@ -874,6 +818,7 @@ footer a{
     width: 95%;
   }
 }
+
 /* @media (max-width: 1024px) {
   .main{
     width:1024px;

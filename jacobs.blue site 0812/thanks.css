@@ -11,23 +11,8 @@ transition: .15s;
   src: local('VCR OSD Mono'), url("fonts/vcr-osd-mono-cufonfonts-webfont/VCR_OSD_MONO_1.001[1].woff") format('woff');
 }
 
-/* header{
-  margin: auto;
-  width: 100%;
-  justify-content: center;
-  display: flex;
-  margin-bottom: 24px;
-} */
-
-/* #logo{
-  margin: 48px 0;
-  width: 30%;
-} */
-
 body{
-  /* max-width: 738px; */
   margin: auto;
-  /* color: #121212; */
 }
 
 .thanks{
@@ -44,7 +29,6 @@ body{
 }
 
 h1{
-  /* font-size: 48px; */
   letter-spacing: -1.5px;
 }
 
@@ -61,49 +45,3 @@ h1{
     max-width: 99%
   }
 }
-
-
-/* p{
-  font-size: 19px;
-  color: #0D0D0D;
-  line-height: 1.648;
-  letter-spacing: -.5px;
-  margin-top: 8px;
-  justify-content: center;
-} */
-
-
-/* button{
-  background: white;
-  border-radius: 10px;
-  border: solid 2px #121212;
-  color: #121212;
-  letter-spacing: -.5px;
-  width: 107px;
-  height: 46px;
-  margin-top: 24px;
-  font-size: 19px;
-  font-weight: bold;
-}
-
-button:hover{
-  color: white;
-  background: #121212;
-} */
-
-/* footer{
-margin-top: 122px;
-align-items: center;
-text-align: center;
-margin-bottom: 24px;
-}
-
-footer p{
-  font-size: 15px;
-  color: #121212;
-  margin-top: -10px;
-}
-
-#pink{
-  color: #ff6eee;
-} */
